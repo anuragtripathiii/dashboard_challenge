@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/fe1dc7696d.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/ccaffbd9f3.js"></script>
+    <meta charset="UTF-8">
+    <title>dashboard</title>
+    <style>
+        body{
+            color: white;
+        }
+        .box-1{
+            top: 16%;
+            height: 200px;
+            width: 230px;
+            position: absolute;
+            background-color: #211936;
+            box-sizing: content-box;
+            border-radius: 10px;
+            left: 15%;
+            border-top: 4px solid deepskyblue;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-2{
+            position: absolute;
+            top: 16%;
+            left: 32%;
+            height: 200px;
+            width: 230px;
+            background-color: #211936;
+            box-sizing: content-box;
+            border-radius: 10px;
+            border-top: 4px solid cornflowerblue;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+
+        }
+        .box-3{
+            position: absolute;
+            top: 16%;
+            left: 49%;
+            height: 200px;
+            width: 230px;
+            background-color: #211936;
+            box-sizing: content-box;
+            border-radius: 10px;
+            border-top: 4px solid red;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+
+        }
+        .box-4{
+            position: absolute;
+            top: 16%;
+            left: 66%;
+            height: 200px;
+            width: 220px;
+            background-color: #211936;
+            box-sizing: content-box;
+            border-top:4px solid orangered;
+            border-radius: 10px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+
+        }
+        .box-5{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 54%;
+            left: 15%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-6{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 54%;
+            left: 32%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-7{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 54%;
+            left: 49%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-8{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 54%;
+            left: 66%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-9{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 73%;
+            left: 66%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-10{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 73%;
+            left: 49%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-11{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 73%;
+            left: 32%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .box-12{
+            border-radius: 10px;
+            position: absolute;
+            height: 120px;
+            width: 230px;
+            top: 73%;
+            left: 15%;
+            background-color: #211936;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+        }
+        .top-1{
+            position: absolute;
+            left: 15%;
+            top: 5%;
+        }
+        .top-2{
+            position: absolute;
+            left: 15%;
+            top: 11%;
+        }
+        .tag-2{
+            position: absolute;
+            top: 47%;
+            left: 16%;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        #section1{
+            position: absolute;
+            top: 15%;
+            left: 34%;
+            font-weight: bold;
+            color: hsl(228, 12%, 44%);
+        }
+
+        #section2{
+            position: absolute;
+            top: 15%;
+            left: 34%;
+            font-weight: bold;
+            color: hsl(228, 12%, 44%);
+        }
+
+        #section3{
+            position: absolute;
+            top: 15%;
+            left: 34%;
+            font-weight: bold;
+            color: hsl(228, 12%, 44%);
+        }
+
+        #section4{
+            position: absolute;
+            top: 15%;
+            left: 34%;
+            font-weight: bold;
+            color: hsl(228, 12%, 44%);
+        }
+        .number{
+            position: absolute;
+            top: 30%;
+            left: 28%;
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .followers{
+            position: absolute;
+            top: 61%;
+            left: 27%;
+            font-weight: bold;
+            color: hsl(228, 12%, 44%);
+            letter-spacing: 3px;
+            font-size: 20px;
+        }
+        .up-arrow{
+            position: absolute;
+            top: 75%;
+            left: 28%;
+            font-size: 20px;
+            color: green;
+        }
+        .icon{
+            position: absolute;
+            color: royalblue;
+            font-size: 25px;
+            top: 14%;
+            left:24%;
+        }
+        .you{
+            position: absolute;
+            color: red;
+            font-size: 25px;
+            top: 13.5%;
+            left:22%;
+        }
+        .ig{
+
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            color:orangered;
+            font-size: 25px;
+            top: 13%;
+            left:22%;
+        }
+        .text{
+            position: absolute;
+            top: 20%;
+            font-size: 19px;
+            left: 13%;
+            color: hsl(228, 12%, 44%);
+            font-weight: bold;
+        }
+        .number2{
+            position: absolute;
+            top: 60%;
+            font-size: 29px;
+            left: 13%;
+            color:white;
+            font-weight: bold;
+        }
+        .last{
+            position: absolute;
+            top: 64%;
+            right: 10%;
+        }
+
+        @media only screen and (max-width: 1357px) {
+            .box-4{
+                left: 75%;
+            }
+            .box-2{
+                top: 44%;
+                left: 15%;
+            }
+            .box-3{
+                top: 44%;
+                left: 75%;
+            }
+            .tag-2{
+                top: 72%;
+                left: 15%;
+
+            }
+            .box-5{
+                top: 79%;
+                left: 15%;
+
+            }
+            .box-6{
+                left: 15%;
+
+                top: 96%;
+            }
+            .box-7{
+                left: 15%;
+
+                top: 112%;
+            }
+            .box-8{
+                left: 15%;
+
+                top: 129%;
+            }
+            .box-9{
+                left: 15%;
+
+                top: 146%;
+            }
+            .box-10{
+                left: 15%;
+
+                top: 163%;
+            }
+            .box-11{
+                left: 15%;
+
+                top: 180%;
+            }
+            .box-12{
+                left: 15%;
+
+                top: 197%;
+            }
+
+
+        }
+        .nightmode {
+            font-size: 50px;
+
+        }
+
+    </style>
+</head>
+<body style="background-color: black">
+<span class="nightmode"><a href="index.html">
+    <i class="fab fa-earlybirds" style="color: white"></i></a></span>
+<div class="bg">
+    <h1 class="top-1">Social Media Dashboard</h1>
+    <p class="top-2">Total Follower: 23,004</p>
+    <p class="box-1" ><span id="section1">@Anurag</span><i class="fab fa-facebook-square icon" ></i><span class="number">2981</span><span class="followers">Followers</span><span  class="up-arrow"><i class="fas fa-angle-up"> 6 Today</i></span></p>
+    <p class="box-2"><span id="section2">@Anurag</span><i class="fab fa-twitter-square icon"></i><span class="number">2981</span><span class="followers">Followers</span><span  class="up-arrow"><i class="fas fa-angle-up"> 506 Today</i></span></p>
+    <p class="box-3"><span id="section3">@Anurag</span><i class="fab fa-youtube you"></i><span class="number">2981</span><span class="followers">Followers</span><span  class="up-arrow"><i class="fas fa-angle-up"> 656 Today</i></span></p></p>
+    <p class="box-4"><span id="section4">@Anurag</span><i class="fab fa-instagram ig"></i><span class="number">2981</span><span class="followers">Followers</span><span  class="up-arrow"><i class="fas fa-angle-down" style="color: red"> 596 Today</i></span></p></p>
+    </i></span>
+    <p class="tag-2">Overview - Today</p>
+    <p class="box-5"><span class="text">Likes</span><span class="number2">23</span><span class="last"><i class="fas fa-arrow-up " style="color: green">  2%</i></span></p>
+    <p class="box-6"><span class="text">Follow</span><span class="number2">253</span><span class="last"><i class="fas fa-arrow-up " style="color: green">  12%</i></span></p>
+    <p class="box-7"><span class="text">Tweet</span><span class="number2">233</span><span class="last"><i class="fas fa-arrow-up " style="color: green">  22%</i></span></p>
+    <p class="box-8"><span class="text">Retweet</span><span class="number2">234</span><span class="last"><i class="fas fa-arrow-up " style="color: green">  24%</i></span></p>
+    <p class="box-9"><span class="text">Post</span><span class="number2">231</span><span class="last"><i class="fas fa-arrow-up " style="color: green">  25%</i></span></p>
+    <p class="box-10"><span class="text">Reaction</span><span class="number2">423</span><span class="last"><i class="fas fa-angle-down " style="color: red">  62%</i></span></p>
+    <p class="box-11"><span class="text">Profile views</span><span class="number2">623</span><span class="last"><i class="fas fa-arrow-up " style="color: green">  28%</i></span></p>
+    <p class="box-12"><span class="text">Total views</span><span class="number2">273</span><span class="last"><i class="fas fa-angle-down " style="color: red">  72%</i></span></p>
+</div>
+</body>
+</html>
